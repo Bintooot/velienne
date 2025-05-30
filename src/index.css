@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --font-playfair: "Playfair Display", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-lato: "Lato", sans-serif;
+}

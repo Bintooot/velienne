@@ -1,0 +1,40 @@
+button.Outlined-button {
+  width: 200px;
+  height: 50px;
+  font-family: var(--font-lato);
+  border-radius: 5px;
+  border: 1px solid #d4af37;
+  font-size: 1rem;
+  color: #d4af37;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+button.Outlined-button:hover {
+  color: #fff;
+}
+
+button.Outlined-button:hover::before {
+  transform: scaleX(1);
+}
+
+button.Outlined-button::before {
+  z-index: -1;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  transform-origin: left;
+  transform: scaleX(0);
+  background-color: #d4af37;
+  transition: transform 0.3s ease-in-out;
+}
