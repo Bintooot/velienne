@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
 import zigzagline from "../../../assets/zigzag-line.svg";
-import table from "../../../assets/table.jpg";
 
 const AboutUs = () => {
   return (

@@ -1,0 +1,42 @@
+.menu-wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.menu-wrapper > .menu-header > h2 {
+  padding: 20px 0;
+  font-size: 4rem;
+  text-align: end;
+  font-family: var(--font-playfair);
+  font-weight: 100;
+}
+
+.menu-wrapper > .menu-header > h2 > span {
+  color: #d4af37;
+}
+
+.menu-wrapper > .menu-header > p {
+  font-size: 1.25rem;
+  padding: 5px;
+  text-align: end;
+  font-family: var(--font-lato);
+}
+
+.menu-wrapper > .menu-header > p:hover {
+  color: #d4af37;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.menu-content {
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.menu-content > .menu-items {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
