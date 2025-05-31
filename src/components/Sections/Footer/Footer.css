@@ -1,0 +1,56 @@
+.footer-wrapper {
+  padding: 50px;
+  background-color: #1c1c1c;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  min-height: 350px;
+}
+
+.footer-wrapper > .logo-wrapper > div > h2 {
+  font-size: 3.75rem;
+  font-weight: 100;
+  font-family: var(--font-playfair);
+}
+
+.footer-wrapper > .logo-wrapper > div > p {
+  font-size: 1.25rem;
+  font-weight: 100;
+  font-family: var(--font-cormorant);
+}
+
+.footer-wrapper > .logo-wrapper,
+.contact-details {
+  margin: auto 0;
+}
+
+.footer-wrapper > .contact-details > div > h3 {
+  font-size: 1.25rem;
+  font-weight: 100;
+  font-weight: bold;
+}
+
+.footer-wrapper > .contact-details > div > p {
+  font-size: 1.25rem;
+  font-weight: 100;
+  padding: 10px;
+  font-family: var(--font-cormorant);
+}
+
+.footer-wrapper > .time-schedule {
+  padding-top: 20px;
+}
+
+.footer-wrapper > .time-schedule > h3 {
+  font-size: 1.25rem;
+  font-weight: 100;
+  font-weight: bold;
+}
+
+.footer-wrapper > .time-schedule > p {
+  font-size: 1.25rem;
+  font-weight: 100;
+  padding: 10px;
+  font-family: var(--font-cormorant);
+}
