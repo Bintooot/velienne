@@ -8,6 +8,7 @@
   --font-playfair: "Playfair Display", serif;
   --font-cormorant: "Cormorant Garamond", serif;
   --font-lato: "Lato", sans-serif;
+  scroll-padding-top: 70px;
 }
 
 html {

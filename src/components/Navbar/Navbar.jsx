@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [active, isActive] = useState("home");
+
   return (
     <nav className="navbar-wrapper">
       <div className="logo-wrapper">
@@ -13,16 +15,40 @@ const Navbar = () => {
       <div className="nav-links">
         <ul>
           <li className="nav-item">
-            <a href="#home">Home</a>
+            <a
+              href="#home"
+              onClick={() => isActive("home")}
+              className={active === "home" ? "active" : ""}
+            >
+              Home
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#about-us">About us</a>
+            <a
+              href="#about-us"
+              onClick={() => isActive("about-us")}
+              className={active === "about-us" ? "active" : ""}
+            >
+              About us
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#menu">Menu</a>
+            <a
+              href="#menu"
+              onClick={() => isActive("menu")}
+              className={active === "menu" ? "active" : ""}
+            >
+              Menu
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#contact-us">Contact us</a>
+            <a
+              href="#contact-us"
+              onClick={() => isActive("contact-us")}
+              className={active === "contact-us" ? "active" : ""}
+            >
+              Contact us
+            </a>
           </li>
         </ul>
       </div>

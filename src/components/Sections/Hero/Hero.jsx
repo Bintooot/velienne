@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../Navbar/Navbar";
+
 import OutlinedButton from "../../Button/OutlinedButton/OutlinedButton";
 import FilledButton from "../../Button/FilledButton/FilledButton";
 import { FiCalendar, FiBookOpen } from "react-icons/fi";
@@ -10,7 +10,6 @@ const Hero = (props) => {
   return (
     <main className="hero-wrapper" id={props.id}>
       <div className="hero-content">
-        <Navbar />
         <div className="hero-info">
           <h1>Where Every Plate Tells a Story</h1>
           <div className="separator"></div>

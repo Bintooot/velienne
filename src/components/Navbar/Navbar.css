@@ -1,7 +1,11 @@
 .navbar-wrapper {
   display: flex;
   justify-content: space-around;
+  background-color: #1c1c1c;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   gap: 20px;
   height: 80px;
   color: #fff;
@@ -66,5 +70,13 @@
 }
 
 .nav-links > ul > li > a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-links > ul > li > a.active {
+  color: #d4af37;
+}
+.nav-links > ul > li > a.active::before {
   transform: scaleX(1);
 }
