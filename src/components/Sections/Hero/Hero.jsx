@@ -6,9 +6,9 @@ import { FiCalendar, FiBookOpen } from "react-icons/fi";
 
 import "./Hero.css";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <main className="hero-wrapper">
+    <main className="hero-wrapper" id={props.id}>
       <div className="hero-content">
         <Navbar />
         <div className="hero-info">

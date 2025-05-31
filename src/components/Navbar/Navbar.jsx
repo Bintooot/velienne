@@ -12,17 +12,17 @@ const Navbar = () => {
       <div className="horizontal-separator"></div>
       <div className="nav-links">
         <ul>
-          <li id="#home" className="nav-item">
-            <a href="">Home</a>
+          <li className="nav-item">
+            <a href="#home">Home</a>
           </li>
-          <li id="#about-us" className="nav-item">
-            <a href="">About us</a>
+          <li className="nav-item">
+            <a href="#about-us">About us</a>
           </li>
-          <li id="#menu" className="nav-item">
-            <a href="">Menu</a>
+          <li className="nav-item">
+            <a href="#menu">Menu</a>
           </li>
-          <li id="#contact-us" className="nav-item">
-            <a href="">Contact us</a>
+          <li className="nav-item">
+            <a href="#contact-us">Contact us</a>
           </li>
         </ul>
       </div>

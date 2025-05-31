@@ -9,3 +9,7 @@
   --font-cormorant: "Cormorant Garamond", serif;
   --font-lato: "Lato", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

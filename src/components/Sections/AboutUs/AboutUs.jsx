@@ -2,9 +2,9 @@ import React from "react";
 import "./AboutUs.css";
 import zigzagline from "../../../assets/zigzag-line.svg";
 
-const AboutUs = () => {
+const AboutUs = (props) => {
   return (
-    <section className="about-us-wrapper">
+    <section className="about-us-wrapper" id={props.id}>
       <h2>
         About us: <span>Velienne</span>
       </h2>

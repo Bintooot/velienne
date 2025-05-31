@@ -7,10 +7,10 @@ import Footer from "./components/Sections/Footer/Footer";
 const App = () => {
   return (
     <div>
-      <Hero />
-      <AboutUs />
-      <Menu />
-      <Footer />
+      <Hero id="home" />
+      <AboutUs id="about-us" />
+      <Menu id="menu" />
+      <Footer id="contact-us" />
     </div>
   );
 };

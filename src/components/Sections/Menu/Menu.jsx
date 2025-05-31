@@ -3,12 +3,10 @@ import "./Menu.css";
 import MenuCard from "../../../components/MenuCard/MenuCard";
 import { dishData } from "../../../utils/MenuData.js";
 
-const Menu = () => {
+const Menu = (props) => {
   const [data] = useState(dishData);
-
-  console.log(dishData);
   return (
-    <section className="menu-wrapper">
+    <section className="menu-wrapper" id={props.id}>
       <div className="menu-header">
         <h2>
           Our Restaurant’s <span>Menus</span>

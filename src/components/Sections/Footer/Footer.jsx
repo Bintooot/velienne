@@ -2,9 +2,9 @@ import React from "react";
 import "./Footer.css";
 import logo from "../../../assets/logo.png";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <footer className="footer-wrapper">
+    <footer className="footer-wrapper" id={props.id}>
       <section className="logo-wrapper">
         <div>
           <img src={logo} alt="logo.png" />
