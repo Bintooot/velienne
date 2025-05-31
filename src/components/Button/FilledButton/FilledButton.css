@@ -13,7 +13,7 @@ button.filled-button {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background-color: transparent; /* ✅ Important */
+  background-color: transparent;
   z-index: 1;
 }
 
