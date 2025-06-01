@@ -1,6 +1,4 @@
 button.Outlined-button {
-  width: 200px;
-  height: 50px;
   font-family: var(--font-lato);
   border-radius: 5px;
   border: 1px solid #d4af37;
@@ -8,33 +6,34 @@ button.Outlined-button {
   color: #d4af37;
   cursor: pointer;
   background-color: transparent;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
+  padding: 10px 20px;
+  transition: all 0.5s ease-in-out;
 }
 
 button.Outlined-button:hover {
   color: #fff;
-}
-
-button.Outlined-button:hover::before {
-  transform: scaleX(1);
-}
-
-button.Outlined-button::before {
-  z-index: -1;
-  top: 0;
-  left: 0;
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  transform-origin: left;
-  transform: scaleX(0);
   background-color: #d4af37;
-  transition: transform 0.3s ease-in-out;
+  animation: hover-animation 0.3s ease-in-out;
+}
+
+@keyframes hover-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 1024px) {
+  button.Outlined-button {
+    padding: 7px 15px;
+  }
 }

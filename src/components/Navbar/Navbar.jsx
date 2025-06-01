@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [active, isActive] = useState("home");
@@ -12,6 +13,9 @@ const Navbar = () => {
         <span>Velienne</span>
       </div>
       <div className="horizontal-separator"></div>
+      <div className="mobile-menu-icon">
+        <FaBars fontSize={25} />
+      </div>
       <div className="nav-links">
         <ul>
           <li className="nav-item">

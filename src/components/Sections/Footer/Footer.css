@@ -3,6 +3,7 @@
   background-color: #1c1c1c;
   color: #fff;
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   min-height: 350px;
@@ -53,4 +54,25 @@
   font-weight: 100;
   padding: 10px;
   font-family: var(--font-cormorant);
+}
+
+@media (max-width: 1024px) {
+  .footer-wrapper > .logo-wrapper > div > h2 {
+    font-size: 3rem;
+  }
+  .footer-wrapper > .logo-wrapper > div > p {
+    font-size: 1rem;
+  }
+  .footer-wrapper > .time-schedule > h3 {
+    font-size: 1rem;
+  }
+  .footer-wrapper > .time-schedule > p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -1,9 +1,6 @@
 import React from "react";
-
 import OutlinedButton from "../../Button/OutlinedButton/OutlinedButton";
-import FilledButton from "../../Button/FilledButton/FilledButton";
 import { FiCalendar, FiBookOpen } from "react-icons/fi";
-
 import "./Hero.css";
 
 const Hero = (props) => {
@@ -24,7 +21,7 @@ const Hero = (props) => {
               title="Reserve Now"
               icon={<FiCalendar fontSize={25} />}
             />
-            <FilledButton
+            <OutlinedButton
               title="Explore Our Story"
               icon={<FiBookOpen fontSize={25} />}
             />

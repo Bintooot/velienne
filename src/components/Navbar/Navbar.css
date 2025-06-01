@@ -82,3 +82,18 @@
 .nav-links > ul > li > a.active::before {
   transform: scaleX(1);
 }
+
+.mobile-menu-icon {
+  display: none;
+}
+
+/* Responsive  Mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+}
