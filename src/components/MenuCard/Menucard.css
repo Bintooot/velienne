@@ -3,8 +3,7 @@
   min-height: 550px;
   background-color: #1c1c1c;
   flex-shrink: 0;
-  position: relative;
-  overflow: visible;
+  transition: all 1s ease-in-out;
 }
 
 .card-wrapper > .card-content > img {
@@ -14,10 +13,8 @@
 }
 
 .card-wrapper > .card-content {
-  position: absolute;
   color: #fff;
   text-align: center;
-  z-index: 1;
 }
 
 .card-details {
@@ -43,4 +40,82 @@
 .card-details > h4 {
   font-size: 2.25rem;
   font-family: var(--font-lato);
+}
+
+@media (max-width: 1024px) {
+  .card-wrapper {
+    width: 350px;
+    min-height: 500px;
+    background-color: #1c1c1c;
+    flex-shrink: 0;
+  }
+
+  .card-details > h3 {
+    font-size: 1.5rem;
+    color: #d4af37;
+    font-family: var(--font-playfair);
+  }
+
+  .card-details > p {
+    font-size: 1.15rem;
+    font-family: var(--font-lato);
+  }
+
+  .card-details > h4 {
+    font-size: 2.15rem;
+    font-family: var(--font-lato);
+  }
+}
+
+@media (max-width: 768px) {
+  .card-wrapper {
+    width: 300px;
+    min-height: 450px;
+    background-color: #1c1c1c;
+    flex-shrink: 0;
+  }
+
+  .card-details > h3 {
+    font-size: 1.3rem;
+    color: #d4af37;
+    font-family: var(--font-playfair);
+  }
+
+  .card-details > p {
+    font-size: 1rem;
+    font-family: var(--font-lato);
+  }
+
+  .card-details > h4 {
+    font-size: 2rem;
+    font-family: var(--font-lato);
+  }
+}
+
+@media (max-width: 426px) {
+  .card-wrapper {
+    width: 100%;
+    min-height: 400px;
+    background-color: #1c1c1c;
+    flex-shrink: 0;
+  }
+
+  .card-details {
+    text-align: start;
+  }
+  .card-details > h3 {
+    font-size: 1.3rem;
+    color: #d4af37;
+    font-family: var(--font-playfair);
+  }
+
+  .card-details > p {
+    font-size: 1rem;
+    font-family: var(--font-lato);
+  }
+
+  .card-details > h4 {
+    font-size: 2rem;
+    font-family: var(--font-lato);
+  }
 }
