@@ -7,6 +7,12 @@ const Navbar = () => {
   const [active, isActive] = useState("home");
   const [show, isShow] = useState(false);
 
+  const handleToggle = (active) => {
+    isActive(active);
+    isShow(false);
+    console.log(active, show);
+  };
+
   return (
     <nav className="navbar-wrapper">
       <div className="logo-wrapper">
@@ -73,7 +79,7 @@ const Navbar = () => {
           <li className="sidebar-nav-item">
             <a
               href="#home"
-              onClick={() => isActive("home")}
+              onClick={() => handleToggle("home")}
               className={active === "home" ? "active" : ""}
             >
               Home
@@ -82,7 +88,7 @@ const Navbar = () => {
           <li className="sidebar-nav-item">
             <a
               href="#about-us"
-              onClick={() => isActive("about-us")}
+              onClick={() => handleToggle("about-us")}
               className={active === "about-us" ? "active" : ""}
             >
               About us
@@ -91,7 +97,7 @@ const Navbar = () => {
           <li className="sidebar-nav-item">
             <a
               href="#menu"
-              onClick={() => isActive("menu")}
+              onClick={() => handleToggle("menu")}
               className={active === "menu" ? "active" : ""}
             >
               Menu
@@ -100,8 +106,10 @@ const Navbar = () => {
           <li className="sidebar-nav-item">
             <a
               href="#contact-us"
-              onClick={() => isActive("contact-us")}
-              className={active === "contact-us" ? "active" : ""}
+              onClick={() => handleToggle("contact-us")}
+              className={`${show ? "show" : ""} ${
+                active === "contact-us" ? "active" : ""
+              }`}
             >
               Contact us
             </a>
