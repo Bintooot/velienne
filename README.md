@@ -37,4 +37,7 @@ Coming soon...
 
 ## 📌 Installation
 
-1. Clone the repository  
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Bintooot/velienne.git
+   cd velienne
