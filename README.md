@@ -1,12 +1,40 @@
-# React + Vite
+# Velienne – Fine Dining Restaurant Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the landing page for **Velienne**, a luxurious fine dining restaurant where cuisine meets art, and every meal is an experience.
 
-Currently, two official plugins are available:
+## ✨ About Velienne
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+At Velienne, dining is elevated to an art form. Born from a passion for exquisite cuisine, timeless design, and warm hospitality, Velienne is more than just a restaurant — it's a curated experience where every detail is crafted to delight.
 
-## Expanding the ESLint configuration
+Our chefs draw inspiration from European culinary traditions and global flavors to craft seasonal menus that celebrate taste, elegance, and creativity.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Whether you're planning a romantic evening, a special celebration, or a quiet escape into flavor — Velienne welcomes you.
+
+## 💻 Built With
+
+- **React.js**
+- **HTML**
+- **CSS**
+- **JavaScript**
+
+## 📂 Sections
+
+- **Hero** – Elegant first impression with headline, imagery, and call-to-action  
+- **About Us** – Story of Velienne and its philosophy  
+- **Menu** – A sneak peek at our seasonal, chef-curated offerings  
+- **Contact Us** – Location, hours, and reservation details  
+
+## 🚀 Features
+
+- Responsive design for all devices  
+- Smooth scrolling and elegant animations  
+- Clear call-to-actions for bookings and inquiries  
+- Visually rich layout reflecting Velienne’s upscale identity  
+
+## 📷 Preview
+
+Coming soon...
+
+## 📌 Installation
+
+1. Clone the repository  
