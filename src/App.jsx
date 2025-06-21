@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Hero from "./components/Sections/Hero/Hero";
-import AboutUs from "./components/Sections/Aboutus/AboutUs";
+import AboutUs from "./components/Sections/AboutUs/AboutUs";
 import Menu from "./components/Sections/Menu/Menu";
 import Footer from "./components/Sections/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
